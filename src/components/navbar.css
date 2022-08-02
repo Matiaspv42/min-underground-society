@@ -1,0 +1,26 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    background-color: #fff;
+    height: 50px;
+}
+
+.Navbar nav *{
+    margin: 5px;
+}
+
+.Navbar a{
+    text-decoration: none;
+    color: #939393;
+}
+
+.navbarButton{
+    background-color: #fff;
+    border: none;
+    color: #939393;
+    border: 2px solid #939393;
+    padding: 5px 15px;
+    cursor: pointer;
+}
