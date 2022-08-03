@@ -24,9 +24,14 @@ export default function Navbar (){
              <NavLink to='/'
                     style={({ isActive }) => ({ color: isActive ? "#000" : "#939393" })}
                 >Home</NavLink>
+                <NavLink to='/roadmap'
+            style={({ isActive }) => ({ color: isActive ? "#000" : "#939393" })}
+            >
+                Our Vision
+            </NavLink>
             <NavLink to='/about'
                     style={({ isActive }) => ({ color: isActive ? "#000" : "#939393" })}
-                >About</NavLink>
+                >The Team</NavLink>
           </div>
           <div class="dropdown md:hidden lg:hidden">
             <label tabindex="0" class="btn btn-ghost ">
@@ -50,7 +55,11 @@ export default function Navbar (){
                <NavLink to='/'
                     style={({ isActive }) => ({ color: isActive ? "#000" : "#939393" })}
                 >Home</NavLink>
-                
+                <NavLink to='/roadmap'
+            style={({ isActive }) => ({ color: isActive ? "#000" : "#939393" })}
+            >
+                Our Vision
+            </NavLink>
               <NavLink to='/about'
                     style={({ isActive }) => ({ color: isActive ? "#000" : "#939393" })}
                 >About</NavLink>
