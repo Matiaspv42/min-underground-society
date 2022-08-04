@@ -6,7 +6,7 @@ import About from './components/About';
 import Roadmap from './components/Roadmap'
 function App() {
   return (
-    <div className="App">
+    <div className="App flex flex-col">
       <Navbar />
       <Routes>
         <Route path='/' element={<Home/>}/>

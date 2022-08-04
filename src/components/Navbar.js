@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom"
 import './navbar.css'
-import Logo from './logo.png'
+import Logo from './Main.png'
 export default function Navbar (){
     return(
         // <header className="Navbar">
@@ -68,10 +68,12 @@ export default function Navbar (){
         </div>
 
         <div class="navbar-center sm:flex md:flex lg:flex">
-        <img src={Logo} alt="" />
+          <NavLink to='/'>
+            <img src={Logo} alt="" />
+          </NavLink>
         </div>
         <div class="navbar-end ">
-          <button class="navbarButton hidden md:flex lg:flex ">Connect Wallet</button>
+          <button class="navbarButton hidden md:flex lg:flex ">Check our Litepaper</button>
         </div>
       </div>
     )

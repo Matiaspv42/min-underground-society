@@ -1,1 +1,11 @@
+.App{
+    /* border: 1px red solid; */
+    height: 100vh
+}
 
+.header{
+    font-family: 'Orbitron';
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #0a0e11;
+}

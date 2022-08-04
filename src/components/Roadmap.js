@@ -1,7 +1,7 @@
 export default function Project() {
     return(
-        <div>
-            <h3>Our Vision</h3>
+        <div className="roadmap grow">
+            <h1 className="header" >Our Vision</h1>
         </div>
     )
 }
