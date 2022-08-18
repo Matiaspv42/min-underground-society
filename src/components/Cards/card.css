@@ -1,0 +1,22 @@
+.textCard{
+    color: #0a0e11;
+}
+
+.grayColor{
+    color: #939393;
+}
+
+.yellowButton{
+    background-color: #ffe000;
+    border: none;
+    color: #0a0e11;
+    border-radius: 7.5px;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-family: 'Orbitron';
+    font-weight: 800;
+}
+
+.roboto{
+    font-family: 'Roboto';
+}
