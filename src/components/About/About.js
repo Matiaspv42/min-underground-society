@@ -8,7 +8,7 @@ export default function About () {
                 <h1 className='header'>About the team</h1>
                 <div className="cards flex flex-wrap px-5 py-5 ">
                     {cardData.map((d)=>
-                        <div className='basis-1/3'>
+                        <div className='basis-1/3 flex justify-center'>
                             <Card data={d}/>
                         </div>
                     )}
