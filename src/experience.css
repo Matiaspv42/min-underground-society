@@ -1,0 +1,7 @@
+.canvas{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    outline: none;
+    z-index: -1;
+}

@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom"
 import './navbar.css'
-import Logo from './Main.png'
+import Logo from '../Main.png'
 export default function Navbar (){
     return(
         // <header className="Navbar">
@@ -32,6 +32,9 @@ export default function Navbar (){
             <NavLink to='/about'
                     style={({ isActive }) => ({ color: isActive ? "#000" : "#939393" })}
                 >The Team</NavLink>
+            <NavLink to='/nft'
+                style={({ isActive }) => ({ color: isActive ? "#000" : "#939393" })}
+            >NFT</NavLink>
           </div>
           <div class="dropdown md:hidden lg:hidden">
             <label tabindex="0" class="btn btn-ghost ">
@@ -56,13 +59,16 @@ export default function Navbar (){
                     style={({ isActive }) => ({ color: isActive ? "#000" : "#939393" })}
                 >Home</NavLink>
                 <NavLink to='/roadmap'
-            style={({ isActive }) => ({ color: isActive ? "#000" : "#939393" })}
-            >
-                Our Vision
-            </NavLink>
-              <NavLink to='/about'
+                  style={({ isActive }) => ({ color: isActive ? "#000" : "#939393" })}
+                >
+                    Our Vision
+                </NavLink>
+                <NavLink to='/about'
                     style={({ isActive }) => ({ color: isActive ? "#000" : "#939393" })}
                 >About</NavLink>
+                <NavLink to='/nft'
+                  style={({ isActive }) => ({ color: isActive ? "#000" : "#939393" })}
+                >NFT</NavLink>
             </div>
           </div>
         </div>
@@ -73,7 +79,7 @@ export default function Navbar (){
           </NavLink>
         </div>
         <div class="navbar-end ">
-          <button class="navbarButton hidden md:flex lg:flex ">Check our Litepaper</button>
+          <button class="navbarButton hidden md:flex lg:flex ">Whitepaper</button>
         </div>
       </div>
     )
