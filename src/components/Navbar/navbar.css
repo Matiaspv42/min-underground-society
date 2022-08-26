@@ -16,6 +16,15 @@
     color: #939393;
 } */
 
+.navbar{
+    height: 100px;
+    min-height: 100px;
+}
+
+.Logo{
+    width: 250px;
+}
+
 .navbarButton{
     background-color: #ffe000;
     border: none;
